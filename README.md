@@ -1,9 +1,20 @@
 # <code>AlgosExplained by crypt0</code>
 
- Let's make algorithms easy and understandable once and for all!
+<h5>Let's make algorithms easy and understandable once and for all!
 
 <img srcSet="https://pandorafms.com/blog/wp-content/uploads/2018/05/what-is-an-algorithm-featured.png" />
 
-#### List of algos until now:
-- Caesar Cipher
-- Bubble sort
+<h5><u>List of algos until now:</u></h5>
+<ol>
+  <li>Caesar Cipher</li>
+  <li>Bubble sort</li>
+</ol>
+
+
+<h5><u>Running algorithms</u></h5>
+<span>Open your terminal inside algos-explained root folder:</span>
+<br/>
+<code>cd algorithm_folder</code>
+<br/>
+<span>Then run following command:</span>
+<code>node index.js</code>
