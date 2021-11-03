@@ -28,4 +28,4 @@ const bubbleSort = arr => {
 };
 
 // Example
-bubbleSort([2, 1, 4, 3]); // [1, 2, 3, 4]
+console.warn(bubbleSort([999, 234, 19, 5, 0])); // [1, 2, 3, 4]
