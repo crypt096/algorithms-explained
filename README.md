@@ -2,7 +2,7 @@
 
 <h5>Let's make algorithms easy and understandable once and for all!
 
-<img srcSet="https://pandorafms.com/blog/wp-content/uploads/2018/05/what-is-an-algorithm-featured.png" />
+<img src="https://pandorafms.com/blog/wp-content/uploads/2018/05/what-is-an-algorithm-featured.png" />
 
 <h5><u>List of algos until now:</u></h5>
 <ol>
