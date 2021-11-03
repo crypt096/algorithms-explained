@@ -1,3 +1,13 @@
+// Encrypts or decrypts a given string using the Caesar cipher.
+
+/*
+  1. Use the modulo (%) operator and the ternary operator (?) to calculate the correct encryption/decryption key.
+  2. Use the spread operator (...) and Array.prototype.map() to iterate over the letters of the given string.
+  3. Use String.prototype.charCodeAt() and String.fromCharCode() to convert each letter appropriately, ignoring special characters, spaces etc.
+  4. Use Array.prototype.join() to combine all the letters into a string.
+  5. Pass true to the last parameter, decrypt, to decrypt an encrypted string.
+*/
+
 const caesarCipher = (str, shift, decrypt = false) => {
   const s = decrypt ? (26 - shift) % 26 : shift;
   const n = s > 0 ? s : 26 + (s % 26);
@@ -13,4 +23,4 @@ const caesarCipher = (str, shift, decrypt = false) => {
     .join('');
 };
 
-console.log(caesarCipher('aleksandar', -3));
+console.warn(caesarCipher('aleksandar', -3));
