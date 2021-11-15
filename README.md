@@ -1,4 +1,4 @@
-# <code>AlgosExplained by crypt0</code>
+### Algorithms explained
 
 <h5>Let's make algorithms easy and understandable once and for all!
 
