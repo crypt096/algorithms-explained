@@ -6,7 +6,7 @@
 2. Use a for loop to iterate over elements in the array.
 3. Use Array.prototype.slice() and Array.prototype.reduce() to find the index of the minimum element in the subarray 
    to the right of the current index. Perform a swap, if necessary.
-   
+
 */
 
 const selectionSort = arr => {
