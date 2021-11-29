@@ -2,10 +2,11 @@
 
 /*
   1. Use recursion.
-  2. If the length of the array is less than 2, return the array.
-  3. Use Math.floor() to calculate the middle point of the array.
-  4. Use Array.prototype.slice() to slice the array in two and recursively call mergeSort() on the created subarrays.
-  5. Finally, use Array.from() and Array.prototype.shift() to combine the two sorted subarrays into one.
+  2. Use the spread operator (...) to clone the original array, arr.
+  3. If the length of the array is less than 2, return the cloned array.
+  4. Use Math.floor() to calculate the index of the pivot element.
+  5. Use Array.prototype.reduce() and Array.prototype.push() to split the array into two subarrays. The first one contains elements smaller than or equal to pivot and the second on elements greather than it. Destructure the result into two arrays.
+  6. Recursively call quickSort() on the created subarrays.
 */
 
 const mergeSort = arr => {
