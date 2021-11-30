@@ -4,7 +4,7 @@
 <br/>
 
 <h5>Big O cheatsheet</h5>
-<img src="./assets/sorting_algos_visual.png" />
+<img src="./assets/sorting_algos.png" />
 
 <h5><u>List of algos until now:</u></h5>
 <ul>
