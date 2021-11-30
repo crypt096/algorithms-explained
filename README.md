@@ -1,15 +1,24 @@
-### Algorithms explained
+<h1>Algorithms explained</h1>
 
-<h5>Let's make algorithms easy and understandable once and for all!
+<h5>Let's make algorithms easy and understandable once and for all!</h5>
+<br/>
 
-<img src="https://pandorafms.com/blog/wp-content/uploads/2018/05/what-is-an-algorithm-featured.png" />
+<h5>Big O cheatsheet</h5>
+<img src="./assets/bigO.png" />
 
 <h5><u>List of algos until now:</u></h5>
-<ol>
-  <li>Caesar Cipher</li>
-  <li>Bubble sort</li>
-</ol>
-
+<ul>
+  <li>Sorting algorithms</li>
+  <ul>
+    <li>Bubble sort</li>
+    <li>Selection sort</li>
+    <li>Insertion sort</li>
+    <li>Merge sort</li>
+    <li>Quick sort</li>
+    <li>Heap sort</li>
+  </ul>
+  <li>Ceasar cipher</li>
+</ul>
 
 <h5><u>Running algorithms</u></h5>
 <span>Open your terminal inside algos-explained root folder:</span>
