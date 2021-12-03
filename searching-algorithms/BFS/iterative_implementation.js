@@ -1,4 +1,4 @@
-// Breadth first search algorithms
+// Breadth first search algorithm
 
 const breadthFirstSearch = (rootNode) => {
   // If this is method of binary tree, you can use currentNode as root node -> currentNode = this.root
